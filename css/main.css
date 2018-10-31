@@ -1,7 +1,151 @@
 html {
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f2f2f2;
+  padding: .75rem;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.quest img {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.dino img {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.laser img {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.dragon img {
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+.group {
+  display: flex;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding: .75rem;
+  margin: 0;
+}
+
+.quest {
+  background-color: #e2e2e2;
+  padding: 1.5rem;
+  padding-top: .875rem;
+  padding-bottom: .875rem;
+  margin: 0;
+  width: 25%;
+}
+
+.dino {
+  background-color: #ccc;
+  padding: 1.5rem;
+  padding-top: .875rem;
+  padding-bottom: .875rem;
+  margin: 0;
+  width: 25%;
+}
+
+.dragon {
+  background-color: #aaa;
+  padding: 1.5rem;
+  padding-top: .875rem;
+  padding-bottom: .875rem;
+  margin: 0;
+  width: 25%;
+}
+
+.laser {
+  background-color: #999;
+  padding: 1.5rem;
+  padding-bottom: .875rem;
+  padding-top: .875rem;
+  margin: 0;
+  width: 25%;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+cite {
+  font-size: .875rem;
+}
+
+.btn {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: .3em .75em;
+  border-radius: 8px;
+  background-color: #333;
+  border: 3px solid #333;
+  color: #fff;
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0 auto 1.5rem;
+  padding-bottom: .5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.btn-small {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: .3em .75em;
+  border-radius: 8px;
+  background-color: #333;
+  border: 3px solid #333;
+  color: #fff;
+  font-size: .875rem;
 }
